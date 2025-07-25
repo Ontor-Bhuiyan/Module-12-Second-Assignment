@@ -13,7 +13,7 @@ ul li{
 ul li a{
     text-decoration: none;
 }
-header, main{
+header, .section,footer{
     margin: 0 auto;
     max-width: 1140px;
 }
@@ -278,6 +278,82 @@ header, main{
         font-family: 'Inter', sans-serif;
     }
 
+    /* join-bunch styles */
+    .join-bunch{
+        margin-top: 120px;
+        position: relative;
+    }
+    .join-bunch-title{
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 23px;
+        font-size: 3.125rem;
+        font-family: 'Noto Serif', sans-serif;
+    }
+    .join-bunch img{
+        width: 100%;
+    }
+    form{
+        position: absolute;
+        padding: 280px 543px;
+    }
+    input{
+        width: 600px;
+        height: 50px;
+        padding-left: 15px;
+    }
+    button{
+        width: 200px;
+        height: 52px;
+        border: none;
+        color: #fff;
+        margin-left: -5px;
+        background: #E95A08;
+    }
+
+    /* footer styles */
+    .footer-part{
+        padding-bottom: 50px;
+    }
+    .footer-details{
+        width: 300px;
+    }
+    .footer-link{
+        width: 460px;
+        margin-top: 50px;
+    }
+    .footer-icon{
+        width: 380px;
+        margin-top: 50px;
+        justify-content: end;
+    }
+    .footer-logo img{
+        margin: 50px 0 16px;
+    }
+    .footer-description{
+        font-weight: 400;
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+    }
+    .footer-item .footer-links{
+        list-style: none;
+        padding: 0 0 32px 82px;
+    }
+    .footer-item .footer-links a{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+    }
+    .footer-icon a img{
+        width: 35px;
+        padding: 0 15px;
+    }
+    #twitter{
+        width: 25px;
+        padding: 8px 10px;
+    }
+
 /* mobile responsive styles */
 @media screen and (max-width: 576px){
     /* navbar styles */
@@ -394,28 +470,77 @@ header, main{
     }
     .image-title-one{
         top: 70px;
-        padding: 0 73px;
+        padding: 0 45px;
+        font-size: 1.5rem;
     }
     .image-button-one{
-        padding: 0 144px;
+        padding: 0 135px;
+        font-size: 1.25rem;
     }
     .image-title-two{
         top: 293px;
-        padding: 0 73px;
+        padding: 0 45px;
+        font-size: 1.5rem;
     }
     .image-button-two{
         top: 332px;
-        padding: 0 144px;
+        padding: 0 135px;
+        font-size: 1.25rem;
     }
     .image-title-three{
         font-weight: 700;
-        font-size: 1.25rem;
-        padding: 70px 73px 0;
+        font-size: 1.5rem;
+        padding: 70px 47px 0;
     }
     .image-button-three{
-        font-size: 1rem;
         font-weight: 600;
-        padding: 115px 141px 0;
+        font-size: 1.25rem;
+        padding: 115px 131px 0;
+    }
+
+    /* join-bunch styles */
+    .join-bunch{
+        margin-top: 20px;
+    }
+    form{
+        padding: 147px 37px;
+    }
+    input{
+        width: 220px;
+    }
+    button{
+        width: 100px;
+    }
+    .join-bunch-title{
+        font-size: 1.25rem;
+    }
+    .join-bunch img{
+        height: 400px;
+    }
+
+    /* footer styles */
+    .footer{
+        flex-direction: column;
+    }
+    .footer-description{
+        font-size: 1.5rem;
+    }
+    .footer-link{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-icon{
+        justify-content: start;
+    }
+    .footer-details{
+        padding: 0 20px;
+    }
+    .footer-item .footer-links{
+        padding: 15px 0;
+    }
+    .footer-item .footer-links a{
+        padding: 0 20px;
+        font-size: 1.5rem;
     }
 }
 
@@ -513,5 +638,24 @@ header, main{
     .image-button-three{
         font-size: 1.2rem;
         padding: 235px 196px 0;
+    }
+
+    /* join-bunch styles */
+    form{
+        padding: 97px 123px
+    }
+    .join-bunch-title{
+        font-size: 2.5rem;
+    }
+    input{
+        width: 450px;
+    }
+
+    /* footer styles */
+    .footer-details{
+        margin-left: 20px;
+    }
+    .footer-item .footer-links{
+        padding: 0 0 32px 30px;
     }
 }
